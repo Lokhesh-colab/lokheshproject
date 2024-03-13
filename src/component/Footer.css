@@ -1,0 +1,220 @@
+.logo1{
+    display: flex;
+    align-items: center;
+}
+.Foot_main{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    padding-top: 100px;
+}
+.Foot_div1{
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400;
+    padding-right: 50px;
+    color: white;
+    width: 50%;
+    box-sizing: border-box;
+}
+.Foot_main2{
+    width: 50%;
+    display: flex;
+}
+.Foot_div2{
+    width: 50%;
+    padding-bottom: 40px;
+    position: relative;
+    box-sizing: border-box;
+    padding-top: 10px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+.Foot_h4{
+    color: white;
+    margin-top: -5px;
+    font-size: 26px;
+    font-weight: 500;
+    border-bottom: 1px solid #F6EC4F;
+    line-height: 36px;
+}
+.Foot_p{
+    color: white;
+    font-size: 16px;
+    line-height: 29px;
+    font-weight: 400
+}
+.Foot-button1{ 
+    border-radius: 10px;
+    height: 50px;
+    width: 60%;
+    background: linear-gradient(219deg, #FB0E76 0%, #910694 100%);
+    align-items: center;
+    outline: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.4px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    color: #fff !important;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+    transition: background-position .5s;
+    gap: 10px;
+}
+.Foot-button1:hover{
+    background-position: 0 0;
+}
+.foot_forms{
+    padding-top: 50px;
+    display: flex;
+}
+.foot_input{
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: rgba(255, 255, 255, 0.25);
+    font-family: Rubik;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    background: transparent;
+    width: 60%;
+    height: 100%;
+    padding: 22px;
+}
+.foot_submit{
+    display: flex;
+    align-items:center ;
+    border-radius: 10px;
+    background: linear-gradient(220deg, #FB0E76 0%, #910694 100%);
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2.4px;
+    font-weight: 900;
+    transition: background-position .5s;
+    background-position: 100% 0;
+    background-size: 200% 100%;
+}
+.foot_submit:hover{
+    background-position: 0 0;
+    cursor: pointer;
+}.foot_info{
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+.basicinfo{
+    color: #fff;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+.basicinfo:hover{
+    color:#F6EC4F;
+}
+.foot_img{
+   width:300px;
+   height: 230px;
+    
+}
+.Foot_main1{
+    display: flex;
+    width: 50%;
+}
+@media screen and (max-width:1400px) {
+    .Foot_main{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .Foot_main1{
+        display: flex;
+        width: 100%;
+        
+    }
+    .Foot_main2{
+        display: flex;
+        width: 100%;
+        
+    }
+    .Foot_div1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 0;
+    }
+    .Foot_div2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .foot_input{
+        height: 50px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .foot_forms{
+        height: 50px;
+        padding-top: 0;
+    }
+    .Foot_p{
+        margin-top: -3px;
+    }
+    .foot_info{
+        padding-top: 0;
+    }
+
+}
+@media screen and (max-width:950px) {
+    .Foot_main1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Foot_main2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Foot_h4{
+        margin: 0;
+    }
+    .foot_img{
+        padding-top:30px ;
+    }
+    .Foot_p{
+        margin: 0;
+        padding-top: 30px;
+    }
+    .Foot_div2{
+        padding-top: 30px;
+        padding-right: 0;
+    }
+    .Foot_div1{
+        padding-right: 0;
+    }
+    .Foot_main{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
